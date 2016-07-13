@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jsp/WebContent/chap10/freeBoard_deldb.jsp&apos; to &apos;freeboard_deldb.jsp&apos;" description="Rename resource &apos;freeBoard_deldb.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/chap10/freeBoard_deldb.jsp" name="freeboard_deldb.jsp" stamp="1466071706361" updateReferences="true"/>
+</session>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mysql5-1550ff2ad53-c2b8d6616d8b994" provider="mysql" driver="mysql5" name="MySQL - mysql" create-date="1464851487573" update-date="1465279301906" login-date="1465282790382" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="mysql" url="jdbc:mysql://localhost:3306/mysql" user="root" password="EhQLM0RXUQZl8w==" home="C:\APM_Setup\Server\MySQL5" type="dev">
+			<property name="connectTimeout" value="20000"/>
+			<network-handler type="CONFIG" id="mysql_ssl" enabled="false" user="" save-password="false">
+				<property name="ssl.public.key.retrieve" value="false"/>
+				<property name="ssl.verify.server" value="true"/>
+				<property name="ssl.client.cert" value=""/>
+				<property name="ssl.client.key" value=""/>
+				<property name="ssl.ca.cert" value=""/>
+				<property name="ssl.cipher.suites" value=""/>
+				<property name="ssl.require" value="false"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="keyPath" value=""/>
+				<property name="host" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<bootstrap/>
+		</connection>
+	</data-source>
+	<data-source id="mysql5-15529aa704a-49705900ddc51195" provider="mysql" driver="mysql5" name="MySQL - gboard" create-date="1465282902213" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="gboard" url="jdbc:mysql://localhost:3306/gboard" user="multi" password="HgECKUAjpQ==" home="C:\APM_Setup\Server\MySQL5" type="dev">
+			<property name="connectTimeout" value="20000"/>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="keyPath" value=""/>
+				<property name="host" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="CONFIG" id="mysql_ssl" enabled="false" user="" save-password="false">
+				<property name="ssl.public.key.retrieve" value="false"/>
+				<property name="ssl.verify.server" value="true"/>
+				<property name="ssl.client.cert" value=""/>
+				<property name="ssl.client.key" value=""/>
+				<property name="ssl.ca.cert" value=""/>
+				<property name="ssl.cipher.suites" value=""/>
+				<property name="ssl.require" value="false"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<bootstrap/>
+		</connection>
+	</data-source>
+	<data-source id="oracle_thin-1557be21a68-132392cc8699d61d" provider="oracle" driver="oracle_thin" name="Oracle" create-date="1466662383529" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1521" server="" database="XE" url="jdbc:oracle:thin:@localhost:1521:XE" user="sys" password="QlZVdCGi" home="C:\oraclexe\app\oracle\product\11.2.0\server" type="dev">
+			<property name="@dbeaver-sid-service@" value="SID"/>
+			<property name="@dbeaver-connection-type@" value="BASIC"/>
+			<property name="@dbeaver-check-schema-content@" value="true"/>
+			<property name="loginTimeout" value="20"/>
+			<property name="@dbeaver-internal-logon@" value="sysdba"/>
+			<property name="@dbeaver-always-show-dba@" value="false"/>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="keyPath" value=""/>
+				<property name="host" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<bootstrap/>
+		</connection>
+	</data-source>
+</data-sources>
